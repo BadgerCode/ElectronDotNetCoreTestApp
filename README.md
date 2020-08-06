@@ -8,8 +8,21 @@ Install the Electron CLI globally:
 
 
 # Run the project
+Run the following commands inside the folder `./ElectronTestApp/`
+
 > `electronize start`
 
 Or to automatically rebuild
 > `electronize start /watch`
 
+
+# Build the project
+Run the following commands inside the folder `./ElectronTestApp/`
+
+**Note**: Use `powershell`
+
+> `electronize build /target win` <br>
+> `electronize build /target osx` <br>
+> `electronize build /target linux`
+
+The output will appear in the folder `./ElectronTestApp/bin/Desktop`
